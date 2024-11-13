@@ -1,5 +1,5 @@
 # write your code here
-def subtuple(xs, ys):
+'''def subtuple(xs, ys):
     
     if ys == None:
         return True
@@ -9,4 +9,15 @@ def subtuple(xs, ys):
             return True
     return False
 
-print(subtuple((1, 2, 3, 4, 5), (1, 3, 4)))
+print(subtuple((1, 2, 3, 4, 5), (1, 3, 4)))'''
+
+def subtuple(xs):
+    
+    for i in xs:
+        if i == 2:
+            return True
+    
+    return False
+
+
+print(subtuple((1, 2, 3, 4)))
