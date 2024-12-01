@@ -23,7 +23,7 @@ class Tweet:
     def message(self,value):
         self.__message = value
 
-tweet = Tweet("abc", 10)
+tweet = Tweet("abc", 2)
 print(tweet.message)
 
 tweet.max_length = 1
